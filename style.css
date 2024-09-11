@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Primary Color Variable */
+
+:root{
+    --primary-color: #5b3120;
+}
+
+/* Body Background */
+
+body{
+    background: url(assets/WhatsApp\ Image\ 2024-09-09\ at\ 16.19.43_137eba15.jpg);
+}
+
+/* Container Div Styles */
+
+.container{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Softblush Heading */
+
+
+.h-first{
+    color: var(--primary-color);
+    font-family: "Archivo", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    position: absolute;
+    top: 60px;
+}
+
+/* Launching Soon Heading */
+
+.h-second{
+    color: var(--primary-color);
+    position: absolute;
+    top: 140px;
+    font-family: "Rosarivo", cursive;
+    font-size: 4.9rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+/* Paragraph Styles */
+
+.p{
+    color: var(--primary-color);
+    position: absolute;
+    bottom: 210px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3rem;
+}
+
+/* Button Styles */
+
+.btn button{
+    color: var(--primary-color);
+    background-color: white;
+    position: absolute;
+    bottom: 136px;
+    left: 550px;
+    padding: 0.56rem  2.4rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.05rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition:  background-color 1.5s, color 1.5s;
+}
+
+.btn button:hover{
+    color: white;
+    background-color: var(--primary-color);
+}
+
+/* Icons Styles */
+
+.icons{
+    position: absolute;
+    bottom: 70px;
+    cursor: pointer;
+}
+
+.fa-brands{
+    margin: 10px;
+}
+
+/* Utility Classes */
+
+.text-center{
+    text-align: center;
+}
